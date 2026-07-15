@@ -6,6 +6,8 @@ export const config = {
   },
 };
 
+// 깃허브 강제 업데이트용 주석
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
